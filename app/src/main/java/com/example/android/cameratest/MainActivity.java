@@ -693,7 +693,7 @@ public class MainActivity extends AppCompatActivity {
                     mBackgroundHandler);
             // After this, the camera will go back to the normal state of preview.
             mState = STATE_PREVIEW;
-            mCaptureSession.setRepeatingRequest()
+            //mCaptureSession.setRepeatingRequest()
         }catch (CameraAccessException e) {
             e.printStackTrace();
         }
